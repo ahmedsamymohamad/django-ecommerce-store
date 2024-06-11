@@ -34,7 +34,7 @@ DEBUG = env.bool('DEBUG')
 if DEBUG:
     ALLOWED_HOSTS = ['127.0.0.1']
 else:
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ['django-ecommerce-store.onrender.com']
     
 
 
