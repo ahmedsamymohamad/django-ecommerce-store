@@ -89,7 +89,6 @@ Pillow==9.5.0
 pip-tools==7.4.1
 platformdirs==3.10.0
 pluggy==1.2.0
-psycopg2==2.9.9
 psycopg2-binary==2.9.9
 purl==1.6
 py==1.11.0
