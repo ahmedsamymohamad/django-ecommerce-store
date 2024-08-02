@@ -24,7 +24,7 @@ click==8.1.7
 cloudinary==1.38.0
 colorama==0.4.6
 constantly==23.10.4
-BOBcrispy-bootstrap4==2024.1
+crispy-bootstrap4==2024.1
 cryptography==42.0.5
 cssselect==1.2.0
 daphne==4.1.0
