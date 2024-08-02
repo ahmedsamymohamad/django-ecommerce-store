@@ -31,10 +31,7 @@ SECRET_KEY = 'django-insecure-*7!!kc@bmtx8ngui6lr@xmifmcwm6y%hnbe)rdei(b!ds8t)uq
 
 DEBUG = env.bool('DEBUG')
 
-if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1']
-else:
-    ALLOWED_HOSTS = ['django-ecommerce-store.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app','.onrender.com']
     
 
 
