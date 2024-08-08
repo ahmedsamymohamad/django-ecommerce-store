@@ -102,13 +102,6 @@ DATABASES = {
     }
 }
 
-print(
-    env('DATABASES_NAME'),
-env('DATABASES_USER'),
-str(env('DATABASES_PASS')),
-env('DATABASES_HOST'),
-env('DATABASES_PORT')
-)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
